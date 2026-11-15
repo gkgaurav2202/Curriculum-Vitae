@@ -19,7 +19,7 @@ body {
   font-variant-numeric: oldstyle-nums proportional-nums;
 }
 .page {
-  max-width: 44rem;
+  max-width: 52rem;
   margin: 0 auto;
   padding: 4.5rem 1.5rem 3rem;
 }
