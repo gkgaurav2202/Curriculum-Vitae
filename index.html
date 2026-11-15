@@ -9,20 +9,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="layout.js" defer></script>
 </head>
 <body>
 <div class="page">
 
-  <header>
-    <h1>Gaurav Kumar</h1>
-    <p class="role">PhD student in mathematics, The Institute of Mathematical Sciences, Chennai</p>
-    <nav aria-label="Main">
-      <a href="index.html" aria-current="page">About me</a>
-      <a href="research.html">Research</a>
-      <a href="activities.html">Academic activities</a>
-      <a href="cv.pdf">CV (PDF)</a>
-    </nav>
-  </header>
+  <!-- The header (name and menu) is loaded from header.html -->
+  <div id="site-header">
+    <noscript><p><a href="index.html">About me</a> | <a href="research.html">Research</a> | <a href="activities.html">Academic activities</a> | <a href="cv.pdf">CV (PDF)</a></p></noscript>
+  </div>
 
   <main>
     <section id="about" aria-label="Introduction">
@@ -65,7 +60,7 @@
         <dt>Office</dt>
         <dd>
           <address>
-            Office No.- 112, New Building<br>
+            Room 113, New Building<br>
             The Institute of Mathematical Sciences<br>
             IV Cross Road, CIT Campus, Taramani<br>
             Chennai 600113, India
@@ -77,9 +72,9 @@
     </section>
   </main>
 
-  <footer>
-    <a href="mailto:gauravkr@imsc.res.in">gauravkr@imsc.res.in</a>. Last updated November 2026.
-  </footer>
+  <!-- The footer is loaded from footer.html -->
+  <div id="site-footer"></div>
+
 </div>
 </body>
 </html>
