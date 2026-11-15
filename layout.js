@@ -27,3 +27,17 @@
     }
   });
 })();
+// Light/dark mode switch. The choice is remembered in the visitor's browser.
+(function () {
+  const root = document.documentElement;
+  try {
+    if (localStorage.getItem("theme") === "dark") root.dataset.theme = "dark";
+  } catch (e) {}
+  document.addEventListener("click", (event) => {
+    if (!event.target.closest(".theme-toggle")) return;
+    const dark = root.dataset.theme !== "dark";
+    if (dark) root.dataset.theme = "dark";
+    else delete root.dataset.theme;
+    try { localStorage.setItem("theme", dark ? "dark" : "light"); } catch (e) {}
+  });
+})();
