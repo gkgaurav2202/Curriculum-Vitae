@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/fonts.css");
 :root {
   --bg: #F7F8FA;
   --ink: #1B2030;
@@ -13,8 +14,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--ink);
-  font-family: "STIX Two Text", Cambria, "Times New Roman", Georgia, serif;
-  font-size: 1.125rem;
+  font-family: "Computer Modern Serif", "Latin Modern Roman", "CMU Serif", Georgia, serif;  font-size: 1.125rem;
   line-height: 1.6;
   font-variant-numeric: oldstyle-nums proportional-nums;
 }
