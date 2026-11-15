@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Other Academic activities, Gaurav Kumar</title>
+<meta name="description" content="Gaurav Kumar, PhD student in mathematics at The Institute of Mathematical Sciences, Chennai.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <h1>Gaurav Kumar</h1>
+    <p class="role">PhD student in mathematics, The Institute of Mathematical Sciences, Chennai</p>
+    <nav aria-label="Main">
+      <a href="index.html">About me</a>
+      <a href="research.html">Research</a>
+      <a href="activities.html" aria-current="page">Academic activities</a>
+      <a href="cv.pdf">CV (PDF)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="talks">
+      <h2>Talks</h2>
+      <ul class="dated">
+        <li>
+          <time datetime="2026-06-01">1 June 2026</time>
+          <div><span class="what">On lower bounds on moments of <i>L</i>-functions</span><span class="where">IMSc, Chennai</span></div>
+        </li>
+        <li>
+          <time datetime="2026-03-13">13–15 Mar 2026</time>
+          <div><span class="what">On lower bounds on moments of <i>L</i>-functions</span><span class="where">Intercity Number Theory Seminar, IISER Tirupati</span></div>
+        </li>
+        <li>
+          <time datetime="2025-05-01">1 May 2025</time>
+          <div><span class="what">On Kummer’s conjecture</span><span class="where">Oral General Comprehensive Examination talk, IMSc, Chennai</span></div>
+        </li>
+        <li>
+          <time datetime="2024-06-24">24 June 2024</time>
+          <div><span class="what">On Brauer’s induction theorem</span><span class="where">Research Methodology talk, IMSc, Chennai</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="posters">
+      <h2>Poster presentations</h2>
+      <ul class="dated">
+        <li>
+          <time datetime="2026-03-05">5–6 Mar 2026</time>
+          <div><span class="what">Lower bounds on moments of <i>L</i>-functions</span><span class="where">AOWM × IPMU Workshop, Kavli Institute for the Physics and Mathematics of the Universe, Kashiwa, Japan</span></div>
+        </li>
+        <li>
+          <time datetime="2026-03-01">1–4 Mar 2026</time>
+          <div><span class="what">Lower bounds on moments of <i>L</i>-functions</span><span class="where">Japan–India Workshop on <i>L</i>-functions and Multiple Zeta Functions, Sophia University, Tokyo</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="organising">
+      <h2>Organising</h2>
+      <ul class="dated">
+        <li>
+          <time datetime="2025-05-12">12 May 2025</time>
+          <div><span class="what">May 12: Celebrating Women in Mathematics, in honour of Maryam Mirzakhani</span><span class="where">IMSc, Chennai</span><span class="note">With Sanoli Gun, R. Thangadurai, Gayathri M, Subrat Panigrahi and Papiya Sur</span></div>
+        </li>
+        <li>
+          <time datetime="2025-03-27">27–31 Mar 2025</time>
+          <div><span class="what">Number Theory Working Group Meeting</span><span class="where">IMSc, Chennai</span><span class="note">With Sanoli Gun, Mrityunjoy Charan, Papiya Sur and Deep Thakur</span></div>
+        </li>
+        <li>
+          <time datetime="2024-02-19">19–23 Feb 2024</time>
+          <div><span class="what">A Course in PARI/GP, lectures by Prof. Marine Rougnant</span><span class="where">IMSc, Chennai</span><span class="note">With Sanoli Gun, Rashi Lunia, Dhananjaya Sahu and Papiya Sur</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching and mentoring</h2>
+      <ul class="dated">
+        <li>
+          <time datetime="2026-05">May–June 2026</time>
+          <div><span class="what">Mentor, Summer Research Program</span><span class="where">IMSc, Chennai</span></div>
+        </li>
+        <li>
+          <time datetime="2024-12-09">9–19 Dec 2024</time>
+          <div><span class="what">Tutor, IWM Winter School for Young Women in Mathematics</span><span class="where">Sardar Patel University, Gujarat</span></div>
+        </li>
+        <li>
+          <time datetime="2024-08">Aug–Nov 2024</time>
+          <div><span class="what">Teaching assistant, Topology I for PhD and Integrated PhD students</span><span class="where">IMSc, Chennai</span><span class="note">Instructor: Prof. Sanoli Gun</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="conferences">
+      <h2>Conferences and workshops attended</h2>
+      <details>
+        <summary>Show all (11)</summary>
+        <ul class="dated">
+        <li>
+          <time datetime="2026-03-13">13–15 Mar 2026</time>
+          <div><span class="what">Intercity Number Theory Seminar</span><span class="where">IISER Tirupati</span></div>
+        </li>
+        <li>
+          <time datetime="2026-03-05">5–6 Mar 2026</time>
+          <div><span class="what">AOWM × IPMU Workshop</span><span class="where">Kavli IPMU, Kashiwa, Japan</span></div>
+        </li>
+        <li>
+          <time datetime="2026-03-01">1–4 Mar 2026</time>
+          <div><span class="what">Japan–India Workshop on <i>L</i>-functions and Multiple Zeta Functions</span><span class="where">Sophia University, Tokyo</span></div>
+        </li>
+        <li>
+          <time datetime="2025-12-23">23–27 Dec 2025</time>
+          <div><span class="what">IWM – Research in Groups</span><span class="where">IMSc, Chennai</span></div>
+        </li>
+        <li>
+          <time datetime="2025-12-15">15–19 Dec 2025</time>
+          <div><span class="what">Recent Developments in Arithmetic Statistics</span><span class="where">Lodha Mathematical Sciences Institute</span></div>
+        </li>
+        <li>
+          <time datetime="2025-11-30">30 Nov – 4 Dec 2025</time>
+          <div><span class="what">Discussion Meeting on Number Theory and Combinatorics</span><span class="where">Coorg, supported by the Indian Academy of Sciences, Bengaluru</span></div>
+        </li>
+        <li>
+          <time datetime="2025-07-10">10–12 July 2025</time>
+          <div><span class="what">Annual Conference of the Indian Women and Mathematics (IWM)</span><span class="where">IIT Patna</span></div>
+        </li>
+        <li>
+          <time datetime="2025-03-27">27–31 Mar 2025</time>
+          <div><span class="what">Number Theory Working Group Meeting</span><span class="where">IMSc, Chennai</span></div>
+        </li>
+        <li>
+          <time datetime="2025-01-03">3–5 Jan 2025</time>
+          <div><span class="what">Transcendence, Arithmetic and Diophantine Explorations (TRADE)</span><span class="where">Kerala School of Mathematics, Kozhikode</span></div>
+        </li>
+        <li>
+          <time datetime="2024-12-16">16–28 Dec 2024</time>
+          <div><span class="what">AIS – Subspace Theorem and its Applications</span><span class="where">Chennai Mathematical Institute</span></div>
+        </li>
+        <li>
+          <time datetime="2024-07-17">17–20 July 2024</time>
+          <div><span class="what">Number Theory Working Group Meeting</span><span class="where">IISER Thiruvananthapuram</span></div>
+        </li>
+        </ul>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    <a href="mailto:gauravkr@imsc.res.in">gauravkr@imsc.res.in</a>. Last updated November 2026.
+  </footer>
+
+</div>
+</body>
+</html>
