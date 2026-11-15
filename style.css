@@ -6,16 +6,6 @@
   --accent: #2C3E8C;
   color-scheme: light;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #171A21;
-    --ink: #E6E8EE;
-    --muted: #9DA3B3;
-    --rule: #2E333F;
-    --accent: #A9B6FF;
-    color-scheme: dark;
-  }
-}
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -51,7 +41,6 @@ header h1 {
   margin: 0 0 0.6rem;
 }
 .role { margin: 0; color: var(--muted); font-size: 1.15rem; }
-
 
 nav {
   display: flex;
@@ -119,6 +108,11 @@ address { font-style: normal; }
 .contact-grid dd { margin: 0; }
 
 footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem 1.5rem;
   margin-top: 4rem;
   padding-top: 1rem;
   border-top: 1px solid var(--rule);
@@ -140,7 +134,8 @@ nav a[aria-current="page"] {
   text-decoration: none;
 }
 main > section:first-child { margin-top: 2.75rem; }
-/* Dark mode, switched on with the button in the menu */
+
+/* Dark mode, switched on with the button in the footer */
 :root[data-theme="dark"] {
   --bg: #171A21;
   --ink: #E6E8EE;
@@ -150,8 +145,8 @@ main > section:first-child { margin-top: 2.75rem; }
   color-scheme: dark;
 }
 .theme-toggle {
-  display: block;
-  margin-top: 0.75rem;  font: inherit;
+  flex-shrink: 0;
+  font: inherit;
   color: var(--accent);
   background: none;
   border: 1px solid var(--rule);
