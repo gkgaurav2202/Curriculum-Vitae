@@ -150,8 +150,8 @@ main > section:first-child { margin-top: 2.75rem; }
   color-scheme: dark;
 }
 .theme-toggle {
-  margin-left: auto;
-  font: inherit;
+  display: block;
+  margin-top: 0.75rem;  font: inherit;
   color: var(--accent);
   background: none;
   border: 1px solid var(--rule);
