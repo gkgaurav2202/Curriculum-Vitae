@@ -140,3 +140,26 @@ nav a[aria-current="page"] {
   text-decoration: none;
 }
 main > section:first-child { margin-top: 2.75rem; }
+/* Dark mode, switched on with the button in the menu */
+:root[data-theme="dark"] {
+  --bg: #171A21;
+  --ink: #E6E8EE;
+  --muted: #9DA3B3;
+  --rule: #2E333F;
+  --accent: #A9B6FF;
+  color-scheme: dark;
+}
+.theme-toggle {
+  margin-left: auto;
+  font: inherit;
+  color: var(--accent);
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0 0.8rem;
+  cursor: pointer;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+:root[data-theme="dark"] .when-light,
+:root:not([data-theme="dark"]) .when-dark { display: none; }
