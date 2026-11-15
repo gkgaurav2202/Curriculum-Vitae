@@ -3,26 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Other Academic activities, Gaurav Kumar</title>
+<title>Academic activities, Gaurav Kumar</title>
 <meta name="description" content="Gaurav Kumar, PhD student in mathematics at The Institute of Mathematical Sciences, Chennai.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="layout.js" defer></script>
 </head>
 <body>
 <div class="page">
 
-  <header>
-    <h1>Gaurav Kumar</h1>
-    <p class="role">PhD student in mathematics, The Institute of Mathematical Sciences, Chennai</p>
-    <nav aria-label="Main">
-      <a href="index.html">About me</a>
-      <a href="research.html">Research</a>
-      <a href="activities.html" aria-current="page">Academic activities</a>
-      <a href="cv.pdf">CV (PDF)</a>
-    </nav>
-  </header>
+  <!-- The header (name and menu) is loaded from header.html -->
+  <div id="site-header">
+    <noscript><p><a href="index.html">About me</a> | <a href="research.html">Research</a> | <a href="activities.html">Academic activities</a> | <a href="cv.pdf">CV (PDF)</a></p></noscript>
+  </div>
 
   <main>
     <section id="talks">
@@ -100,7 +95,6 @@
     <section id="conferences">
       <h2>Conferences and workshops attended</h2>
       <details>
-        <summary>Show all (11)</summary>
         <ul class="dated">
         <li>
           <time datetime="2026-03-13">13–15 Mar 2026</time>
@@ -151,9 +145,8 @@
     </section>
   </main>
 
-  <footer>
-    <a href="mailto:gauravkr@imsc.res.in">gauravkr@imsc.res.in</a>. Last updated November 2026.
-  </footer>
+  <!-- The footer is loaded from footer.html -->
+  <div id="site-footer"></div>
 
 </div>
 </body>
