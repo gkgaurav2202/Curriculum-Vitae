@@ -15,6 +15,7 @@
 
   await Promise.all([
     insert("site-header", "header.html"),
+    insert("site-footer", "footer.html"),7
   ]);
 
   // GitHub Pages serves research.html at both /research and /research.html
